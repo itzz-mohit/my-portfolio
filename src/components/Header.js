@@ -60,7 +60,13 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1NBbgeETrztipMKa8-z--GNi81S1ebFPM/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

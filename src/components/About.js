@@ -10,16 +10,16 @@ const About = () => {
             About Me
           </h2>
 
-          <p className="pb-5 text-justify">
+          <p className="pb-5 text-left">
             Hi, My Name is Mohit Kumar. I am a Frontend Developer. I build
             beautifull websites with React and Tailwind CSS.
           </p>
-          <p className="pb-5 text-justify">
+          <p className="pb-5 text-left">
             I am proficient in Frontend skills like JavaScript, React.js, Redux,
             Redux ToolKit, Axios, Tailwind CSS and many more.
           </p>
 
-          <p className="pb-5 text-justify">
+          <p className="pb-5 text-left">
             In backend I know Node.js, Express.js, MongoDB, and Mongoose
           </p>
 

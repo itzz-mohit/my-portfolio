@@ -24,7 +24,7 @@ const Skills = () => {
             My Tech Stack
           </p>
 
-          <p className="pb-24 text-justify">
+          <p className="pb-24 text-left">
             I am a highly skilled MERN Stack Developer with a solid foundation
             in computer science, holding a Bachelor's degree in Computer
             Science. My expertise lies in JavaScript and React, where I excel in
