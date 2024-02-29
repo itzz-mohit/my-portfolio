@@ -5,16 +5,22 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
-  const handleToggle = () => setToggle(!toggle);
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+
+  const handleLinkClick = () => {
+    setToggle(false);
+  };
 
   return (
     <header className="flex justify-between px-5 py-5 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+      <a href="/" className="text-3xl font-bold text-accent font-mono">
         Mohit
       </a>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:block">
+      <nav className="hidden md:block font-mono">
         <ul className="flex">
           <li>
             <a href="/#about">About</a>
@@ -46,18 +52,26 @@ const Header = () => {
           !toggle ? "mobile-nav left-[-100%] mt-5" : "mobile-nav left-0 mt-5"
         }
       >
-        <ul className="flex flex-col text-left pl-1">
+        <ul className="flex flex-col text-left pl-1 space-y-2">
           <li>
-            <a href="/#about">About</a>
+            <a href="/#about" onClick={handleLinkClick}>
+              About
+            </a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" onClick={handleLinkClick}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="/#skills">Skills</a>
+            <a href="/#skills" onClick={handleLinkClick}>
+              Skills
+            </a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/#contact" onClick={handleLinkClick}>
+              Contact
+            </a>
           </li>
           <li>
             <a

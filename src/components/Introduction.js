@@ -56,11 +56,11 @@ const Introduction = () => {
           </a>
         </div>
 
-        <div className="hero-img">
+        <div className="md:mt-0 mt-8">
           <img
             src={HeroImg}
             alt="coding illustration"
-            className="lgw-[80%] ml-auto"
+            className="lgw-[80%] ml-auto "
           />
         </div>
       </div>
