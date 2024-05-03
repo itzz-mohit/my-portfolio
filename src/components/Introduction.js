@@ -39,7 +39,7 @@ const Introduction = () => {
               <AiOutlineGithub size={40} />{" "}
             </a>
             <a
-              href="https://drive.google.com/file/d/1NBbgeETrztipMKa8-z--GNi81S1ebFPM/view"
+              href="https://drive.google.com/file/d/1RRc-6jWy4rqs3YUQNQtoQPcHaS1LoqvZ/view?usp=sharing"
               target="_blank"
               className="pr-4 inline-block text-accent hover:text-white"
             >
