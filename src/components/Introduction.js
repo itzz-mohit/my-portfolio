@@ -14,11 +14,11 @@ const Introduction = () => {
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
             Hi, <br />I am <span className="text-accent">M</span>ohit <br />
-            Frontend Developer
+            Web Developer
           </h1>
 
           <p className="py-5">
-            I am proficient in JavaScript, React.js and Tailwind CSS
+            I am proficient in JavaScript, and React JS.
           </p>
 
           <div className="flex py-5 ">
@@ -39,7 +39,7 @@ const Introduction = () => {
               <AiOutlineGithub size={40} />{" "}
             </a>
             <a
-              href="https://drive.google.com/file/d/1RRc-6jWy4rqs3YUQNQtoQPcHaS1LoqvZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H-f-c5vrO5FY-GbAuVkU1iZhXLbXApap/view?usp=sharing"
               target="_blank"
               className="pr-4 inline-block text-accent hover:text-white"
             >

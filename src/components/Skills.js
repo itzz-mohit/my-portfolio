@@ -13,6 +13,7 @@ import {
   redux,
   tailwind,
   vercel,
+  typescript
 } from "../assets/index";
 
 const Skills = () => {
@@ -52,6 +53,7 @@ const Skills = () => {
           <img src={vercel} alt="" className="skills-logo w-16 h-16" />
           <img src={express} alt="" className="skills-logo w-16 h-16" />
           <img src={mongodb} alt="" className="skills-logo w-16 h-16" />
+          <img src={typescript} alt="" className="skills-logo w-16 h-16" />
         </div>
       </div>
     </section>

@@ -3,9 +3,25 @@ import weather from "../assets/weather.jpg";
 import food from "../assets/food.jpg";
 import youtube from "../assets/youTube.jpg";
 import todo from "../assets/Todo.jpg";
+import lms from "../assets/lms.jpg";
+import blog from "../assets/blog.jpg";
 
 const Projects = () => {
   const projects = [
+    {
+      img: lms,
+      title: "lms",
+      desc: "Created a e-learning application using MERN Stack.",
+      live: "",
+      code: "https://github.com/itzz-mohit/the-lms",
+    },
+    {
+      img: blog,
+      title: "blog",
+      desc: "Created a Online Blogging System using MERN Stack.",
+      live: "",
+      code: "",
+    },
     {
       img: weather,
       title: "weatherApp",
@@ -45,9 +61,10 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5 text-left">
-            These are some of my projects. I have built these with Html, CSS,
-            JavaScript, ReactJs and Twailwind CSS.
-            <p> Check them out.</p>
+            These are some of my projects. I have built these with HTML, CSS,
+            JavaScript, React JS, Tailwind CSS, Node JS, Express JS, MongoDB and
+            Redux Toolkit.
+            <p>Check them out.</p>
           </p>
         </div>
 
@@ -58,8 +75,12 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+              <img
+                src={project.img}
+                alt={project.title}
+                className="w-full h-60 "
+              />
+              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
                 </p>

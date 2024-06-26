@@ -12,6 +12,7 @@ import react from "./techStack/React.png";
 import redux from "./techStack/Redux.svg";
 import tailwind from "./techStack/Tailwind.png";
 import vercel from "./techStack/Vercel.svg";
+import typescript from "./techStack/typescript.png"
 
 export {
   blobVector,
@@ -28,4 +29,5 @@ export {
   redux,
   tailwind,
   vercel,
+  typescript
 };
