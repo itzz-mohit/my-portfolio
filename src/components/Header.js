@@ -36,7 +36,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1H-f-c5vrO5FY-GbAuVkU1iZhXLbXApap/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Zf6k3SZa7iRjWqGQbwsY4z4gzbb9y3By/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,7 +75,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1H-f-c5vrO5FY-GbAuVkU1iZhXLbXApap/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Zf6k3SZa7iRjWqGQbwsY4z4gzbb9y3By/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

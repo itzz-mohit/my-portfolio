@@ -11,21 +11,24 @@ const About = () => {
           </h2>
 
           <p className="pb-5 text-left">
-            Hi, My Name is Mohit Kumar. I am a Web Developer. I build
-            beautifull websites by using web technologies.
+            Hello, my name is Mohit Kumar, and I am a professional Web
+            Developer. I specialize in building visually appealing and highly
+            functional websites using modern web technologies.
           </p>
           <p className="pb-5 text-left">
-            I am proficient in Frontend skills like JavaScript, React JS, Redux,
-            Redux ToolKit, Axios, Tailwind CSS and many more.
+            I have expertise in frontend development, including skills in
+            JavaScript, React.js, React Native, Redux Toolkit, Axios, Tailwind
+            CSS, and more.
           </p>
 
           <p className="pb-5 text-left">
-            In backend I know Node JS, Express JS, MongoDB, and Mongoose
+            On the backend, I am proficient in Node.js, Express.js, MongoDB, and
+            Mongoose.
           </p>
 
           <p className="text-justify">
-            In my spare time I love reading books and explore some more
-            technologies.
+            In my free time, I enjoy reading books and exploring emerging
+            technologies to expand my knowledge and skills.
           </p>
         </div>
 

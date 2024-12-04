@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1H-f-c5vrO5FY-GbAuVkU1iZhXLbXApap/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Zf6k3SZa7iRjWqGQbwsY4z4gzbb9y3By/view?usp=sharing"
           target="_blank"
           type="button"
           className="inline-flex items-center justify-center mt-6 px-6 py-3 text-lg font-semibold bg-accent border-2 border-[#7477FF] text-white hover:bg-transparent hover:text-accent focus:outline-none focus:border-[#7477FF] transition duration-300 ease-in-out"

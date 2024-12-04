@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../assets/hero-img.png";
+import { Typewriter } from "react-simple-typewriter";
 
 import {
   AiOutlineLinkedin,
@@ -13,44 +14,55 @@ const Introduction = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center text-left md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, <br />I am <span className="text-accent">M</span>ohit <br />
-            Web Developer
+            Hi, <br />
+            I am{" "}
+            <span className="text-accent">
+              <Typewriter
+                words={["Mohit Kumar", "a Frontend Developer"]}
+                loop={5}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           </h1>
 
           <p className="py-5">
             I am proficient in JavaScript, and React JS.
           </p>
 
-          <div className="flex py-5 ">
+          <div className="flex py-5">
             <a
-              href="https://www.linkedin.com/in/mohit-kumar-015a59204/"
+              href="https://www.linkedin.com/in/mohit-kumar-18945b33a/"
               target="_blank"
               className="pr-4 inline-block text-accent hover:text-white"
+              rel="noreferrer"
             >
-              {" "}
-              <AiOutlineLinkedin size={40} />{" "}
+              <AiOutlineLinkedin size={40} />
             </a>
             <a
               href="https://github.com/itzz-mohit"
               target="_blank"
               className="pr-4 inline-block text-accent hover:text-white"
+              rel="noreferrer"
             >
-              {" "}
-              <AiOutlineGithub size={40} />{" "}
+              <AiOutlineGithub size={40} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1H-f-c5vrO5FY-GbAuVkU1iZhXLbXApap/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Zf6k3SZa7iRjWqGQbwsY4z4gzbb9y3By/view?usp=sharing"
               target="_blank"
               className="pr-4 inline-block text-accent hover:text-white"
+              rel="noreferrer"
             >
-              {" "}
-              <AiOutlineDownload size={40} />{" "}
+              <AiOutlineDownload size={40} />
             </a>
           </div>
 
           <a
             href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+            className="btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
           >
             See Projects
           </a>
@@ -60,7 +72,7 @@ const Introduction = () => {
           <img
             src={HeroImg}
             alt="coding illustration"
-            className="lgw-[80%] ml-auto "
+            className="lg:w-[80%] ml-auto"
           />
         </div>
       </div>
